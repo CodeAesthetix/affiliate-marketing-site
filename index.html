@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Household Items Affiliate Marketing</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Welcome to the Best Household Products</h1>
+        <h1>Discover the Best Household Products</h1>
         <nav>
             <ul>
                 <li><a href="#products">Products</a></li>
@@ -18,25 +20,44 @@
         </nav>
     </header>
 
-    <section id="products">
+    <section id="products" class="fade-in">
         <h2>Top Household Products</h2>
-        <div class="product">
-            <img src="product1.jpg" alt="Product 1">
-            <h3>Product 1</h3>
-            <p>Best kitchen item. <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank">Buy Now</a></p>
-        </div>
-        <div class="product">
-            <img src="product2.jpg" alt="Product 2">
-            <h3>Product 2</h3>
-            <p>Great for cleaning. <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank">Buy Now</a></p>
+        <div class="products-grid">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Kitchen Essential</h3>
+                <p>Perfect for modern kitchens. <a href="YOUR_AFFILIATE_LINK_1" target="_blank" class="btn">Buy Now</a></p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Cleaning Tool</h3>
+                <p>Revolutionize cleaning. <a href="YOUR_AFFILIATE_LINK_2" target="_blank" class="btn">Buy Now</a></p>
+            </div>
         </div>
     </section>
 
+    <section id="about" class="fade-in">
+        <h2>About Us</h2>
+        <p>We are committed to bringing you the best household products with affiliate links that help support our platform.</p>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Household Items Affiliate Marketing</p>
+        <p>&copy; 2024 Household Items Affiliate Marketing. All rights reserved.</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
-
-
