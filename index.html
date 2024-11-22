@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the best household products with affiliate links to help you find quality items for your home.">
     <title>Household Items Affiliate Marketing</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Header Section with Logo and Navigation -->
     <header>
+        <div class="logo">
+            <img src="logo.png" alt="Website Logo">
+        </div>
         <h1>Discover the Best Household Products</h1>
         <nav>
             <ul>
@@ -20,6 +26,16 @@
         </nav>
     </header>
 
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Upgrade Your Home</h1>
+            <p>Find the best household items handpicked for you.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
     <section id="products" class="fade-in">
         <h2>Top Household Products</h2>
         <div class="products-grid">
@@ -36,28 +52,43 @@
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="fade-in">
         <h2>About Us</h2>
         <p>We are committed to bringing you the best household products with affiliate links that help support our platform.</p>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="fade-in">
         <h2>Contact Us</h2>
-        <form action="#" method="POST">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+        <form action="#" method="POST" class="form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" required>
+                <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <label for="message">Your Message</label>
+            </div>
             <button type="submit" class="btn">Send</button>
         </form>
     </section>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Household Items Affiliate Marketing. All rights reserved.</p>
+        <p>&copy; 2024 Household Items Affiliate Marketing</p>
+        <div class="socials">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
     </footer>
 
+    <!-- External Scripts -->
     <script src="script.js"></script>
 </body>
 </html>
