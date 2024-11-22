@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Essentials - Your Trusted Source for Household Items</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('home-banner.jpg');
+            background-size: cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .product-card {
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .featured-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">HomeEssentials</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#deals">Deals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container text-center">
+            <h1>Transform Your Home with Quality Essentials</h1>
+            <p class="lead">Discover our curated selection of premium household items</p>
+            <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-section" id="products">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Products</h2>
+            <div class="row">
+                <!-- Product Card 1 -->
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="product1.jpg" class="card-img-top" alt="Kitchen Appliance">
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Kitchen Mixer</h5>
+                            <p class="card-text">Professional-grade mixing with smart features</p>
+                            <p class="text-primary">$199.99</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="product2.jpg" class="card-img-top" alt="Home Organization">
+                        <div class="card-body">
+                            <h5 class="card-title">Storage Solutions Set</h5>
+                            <p class="card-text">Keep your home organized and clutter-free</p>
+                            <p class="text-primary">$89.99</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="product3.jpg" class="card-img-top" alt="Smart Home">
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Home Hub</h5>
+                            <p class="card-text">Control your home with voice commands</p>
+                            <p class="text-primary">$149.99</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Choose Us</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-shipping-fast fa-3x mb-3 text-primary"></i>
+                    <h4>Fast Shipping</h4>
+                    <p>Free shipping on orders over $50</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-medal fa-3x mb-3 text-primary"></i>
+                    <h4>Quality Products</h4>
+                    <p>Carefully selected premium items</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-headset fa-3x mb-3 text-primary"></i>
+                    <h4>24/7 Support</h4>
+                    <p>Always here to help you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <p>Get exclusive deals and updates delivered to your inbox</p>
+                    <form class="row g-3 justify-content-center">
+                        <div class="col-auto">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Your trusted source for quality household items and home improvement products.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Privacy Policy</a></li>
+                        <li><a href="#" class="text-light">Terms of Service</a></li>
+                        <li><a href="#" class="text-light">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-light me-2"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-light me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light me-2"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2023 HomeEssentials. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
