@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f0f4f7; /* Light gray background */
     color: #333;
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    background: linear-gradient(to right, #ff416c, #ff4b2b); /* Vibrant red to orange gradient */
     color: white;
     padding: 2rem;
     text-align: center;
@@ -127,7 +127,7 @@ nav ul li a:hover {
 }
 
 .btn {
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    background: linear-gradient(to right, #ff416c, #ff4b2b); /* Red to orange gradient */
     color: white;
     font-weight: bold;
     padding: 15px 35px;
@@ -149,7 +149,7 @@ nav ul li a:hover {
 
 /* Products Section */
 #products {
-    background: linear-gradient(to right, #eef6ff, #d9e8ff);
+    background: linear-gradient(to right, #eef6ff, #d9e8ff); /* Soft pastel blue gradient */
     padding: 6rem 2rem;
     text-align: center;
 }
@@ -203,7 +203,7 @@ nav ul li a:hover {
 }
 
 .product a {
-    background: #ff416c;
+    background: #ff416c; /* Red for call-to-action buttons */
     padding: 10px 25px;
     color: white;
     font-weight: bold;
@@ -219,7 +219,7 @@ nav ul li a:hover {
 
 /* About Section */
 #about {
-    background: linear-gradient(to right, #fff8f0, #f7d7c4);
+    background: linear-gradient(to right, #fff8f0, #f7d7c4); /* Soft peach to warm pastel gradient */
     padding: 6rem 2rem;
     text-align: center;
     color: #555;
@@ -228,7 +228,7 @@ nav ul li a:hover {
 #about h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #ff416c;
+    color: #ff416c; /* Red accent color */
 }
 
 /* Contact Section */
@@ -249,7 +249,7 @@ nav ul li a:hover {
 
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: #ff416c;
+    border-color: #ff416c; /* Red border for focus state */
     box-shadow: 0 4px 15px rgba(255, 65, 108, 0.3);
 }
 
